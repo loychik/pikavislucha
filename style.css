@@ -1,0 +1,101 @@
+body {
+  font-family: 'Copperplate Gothic Light', sans-serif;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 116px;
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  margin: 0 200px 0 200px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-content {
+  padding: 21px 0 20px 0;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons img {
+  width: 29px;
+  height: 29px;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 14px 30px 13px 30px;
+  background-color: #79733C;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+  font-family: 'Copperplate Gothic',sans-serif;
+  font-weight: bold;
+  color: #D4D4D6;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 25%);
+}
+
+.header img {
+  height: 75px;
+  margin-right: 60px;
+}
+
+.header-item {
+  margin-right: 90px;
+}
+
+.content {
+  padding: 100px 200px 0 200px;
+}
+
+.content .title {
+    color: #4B3C29;
+    font-size: 128px;
+    line-height: 100%;
+    font-family: 'Copperplate Gothic',sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content .subtitle {
+  font-size: 40px;
+  line-height: 120%;
+  color: #4B3C29;
+  font-family: KyivMedium;
+  letter-spacing: 0.2px;
+  margin-bottom: 80px;
+}
+
+.content .btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: #79733C;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+  font-family: 'Copperplate Gothic',sans-serif;
+  font-weight: bold;
+  color: #D4D4D6;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+
+
+@font-face {
+    font-family: KyivMedium;
+    src: url("KyivTypeSans-Medium.otf") format("opentype");
+}
