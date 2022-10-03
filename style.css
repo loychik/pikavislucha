@@ -25,6 +25,7 @@ body {
   display: flex;
   font-size: 24px;
   align-items: center;
+  font-family: 'Copperplate Gothic Light';
 }
 
 .header-buttons {
@@ -98,4 +99,15 @@ body {
 @font-face {
     font-family: KyivMedium;
     src: url("KyivTypeSans-Medium.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: 'Copperplate Gothic';
+    src: url("Copperplate Gothic Bold Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Copperplate Gothic Light';
+    src: url("Copperplate Gothic Light Regular.ttf") format("truetype");
 }
